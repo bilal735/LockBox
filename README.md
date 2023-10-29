@@ -58,4 +58,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For inquiries or suggestions, feel free to reach out at [your email or preferred contact information].
+For inquiries or suggestions, feel free to reach out at [bilalstp4@gmail.com].
