@@ -1,0 +1,39 @@
+{
+    "name": "LockBox",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Lock with LockBox",
+    "background": {
+        "service_worker": "background.js"
+        
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["contentScripts.js"]
+         
+        }
+    ],    
+    "permissions": [
+        "storage",
+        "tabs",
+        "cookies",
+        "activeTab",
+        "webRequest", 
+         "webNavigation",
+         "storage"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action": {
+        "default_icon": {
+            "32": "assets/cyber-security.png",
+            "48": "assets/cyber-security.png",
+            "128": "assets/cyber-security.png"
+        },
+        "default_title": "lock with lockbox",
+        "default_popup": "popup.html"
+    }
+}
